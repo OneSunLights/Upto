@@ -67,6 +67,11 @@ body{
     line-height: 45px;
     border-radius:6px;
     font-size: 13px;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .header__button:hover{
     transform: rotate(-5deg);
@@ -173,7 +178,7 @@ body{
     font-weight: 400;
     margin-top:25px;
 }
-/* END  dvantages section */
+/* END  advantages section */
 /*Start intro*/
 .intro{
     position:relative;
@@ -384,6 +389,11 @@ body{
     color: #30323a;
     border-radius:3px;
     margin-left: 75px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .box_blue__button:hover{
     transform: rotate(-9deg);
